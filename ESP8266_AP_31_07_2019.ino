@@ -1,11 +1,10 @@
 #include <Arduino.h>
-#include <TM1637Display.h>
 #include <ESP8266WiFi.h>
 #include <WiFiClient.h>
 #include <ESP8266WebServer.h>
 #ifndef APSSID
 #define APSSID "POMIAR_TEMP_1"
-#define APPSK  "peugeot205"
+#define APPSK  "hasło"
 #define Ni 10
 #define LM35 A0
 #define w 0.81
